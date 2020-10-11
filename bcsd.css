@@ -13,7 +13,21 @@ a:hover{
 .navbar-brand{
 	color: #ffffff;
 }
-
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding : 0;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	
+}
+section{
+	flex:1;
+}
 footer{
-	background-color: #657584; color:#ffffff; margin-top:20px;
+	background-color: #657584; color:#ffffff;
 }
